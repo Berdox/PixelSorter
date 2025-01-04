@@ -258,7 +258,6 @@ namespace PixelSorter
             Console.WriteLine("Image saved to " + outputPath);
 
         }
-
         public static void SortByDiagonal(string inputPath, string outputPath, SortingType type, SortingDirection direction, StartingPoint startingPoint) {
             Image<Rgba32> image;
 
